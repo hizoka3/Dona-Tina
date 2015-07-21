@@ -1,0 +1,235 @@
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url('../fonts/Lobster-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/OpenSans-Regular.ttf') format('woff');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #81673a;
+	color: #000;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+section, article, ul, li, a p footer{
+	box-sizing: border-box;
+}
+
+section#container{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	padding-top: 110px;
+}
+
+h1{
+	font-size: 26px;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px 0;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin: 10px 0;
+}
+
+header, nav{
+	position: fixed;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	padding: 5px 10px;
+	height: 50px;
+	border-bottom: 3px solid #38291A;
+	clear: both;
+	background-color: #efefef;
+}
+
+header section p{
+	float: left;
+	margin-left: 10px;
+	font-family: 'Lobster', cursive;
+	font-size: 24px;
+	margin-top: 11px;
+}
+
+header section a{
+	display: block;
+	color: #000;
+}
+
+header section a img{
+	float: left;
+}
+
+/*	NAVIGATION	*/
+
+nav{
+	width: 100%;
+	background-color: #dfdfdf;
+	margin-top: 50px;
+}
+nav ul{
+	list-style: none;
+	padding: 10px;
+	margin: 0; 
+	height: 40px;
+	box-sizing: border-box;
+}
+
+nav ul li{
+	display: block;	
+	float: left;
+	padding: 0 5px;
+}
+
+nav ul li a{
+	font-size: 14px;
+	color: #333;
+	text-decoration: none;	
+}
+
+nav ul li.active a{
+	color: #999;
+}
+
+p{
+	margin:0;
+	padding: 0; 
+}
+
+article img{
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+article p{
+	margin: 5px 0;
+}
+
+footer{
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	border-top: 2px dashed #38291A; 
+	background-color: #a48754;
+	color: #222;
+	margin-top: 20px;
+}
+
+#home article:first-child p{
+	margin-bottom: 25px;
+	padding-bottom: 3px;
+	border-bottom: 1px solid #fff;
+}
+
+article.infoRelevante{
+	padding: 5px;
+	background-color: #a48754;	
+	margin-top: 25px;
+}
+
+article.infoRelevante p:last-child{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+ul#listaMenu{
+	list-style: none;
+	width: 100%;
+	padding: 0;
+}
+
+ul#listaMenu > li{
+	border-top: 1px dashed #38291A;
+}
+
+ul#listaMenu > li:last-child{
+	border-bottom: 1px dashed #38291A;
+}
+
+ul#listaMenu li.active a{
+	background-color: #38291A
+}
+
+ul#listaMenu li a{
+	display: block;
+	color: #dfdfdf;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+}
+
+ul#listaMenu > li > section{
+	padding-bottom: 20px;
+}
+
+ul#listaMenu > li > section img{
+	margin: 50px 0 0 0; 
+}
+
+ul#listaMenu > li > section img:first-child{
+	margin: 0; 
+}
+
+input, select{
+	width: 100%;
+	border:0;
+	height: 40px;
+	margin-top: 10px; 
+	box-sizing: border-box;
+}
+
+textarea{
+	width: 100%;
+	border:0;
+	margin-top: 10px;
+	box-sizing: border-box;
+
+}
+
+input, textarea{
+	padding-left: 5px; 
+}
+
+#reservas form select{
+	width: 45%;
+	float: left;
+}
+
+#reservas form select:nth-of-type(2){
+	width: 45%;
+	float: right;
+}
+
+#reservas form input:last-child{
+	background-color: #b3b720;
+}
+
+footer{
+	width: 100%;
+	box-sizing: border-box;
+}
